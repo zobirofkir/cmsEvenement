@@ -1,0 +1,54 @@
+.image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/pc0.jpg');
+        
+}
+
+@media only screen and (max-width: 768px) {
+    .image {
+        background-size: cover;
+        background-position: center;
+        background-image: url('../../images/tele0.jpg');
+    }
+}
+
+
+#styleC {
+    width: 150%;
+    text-align: right;
+    margin-top: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+    #styleC {
+        /* Center alignment */
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 150%; /* Adjusted margin-top as per your requirement */
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .image-bg {
+		text-align:end;
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 883px) {
+    .image-bg {
+		text-align:end;
+        width: 50%;
+    }
+}
+
+

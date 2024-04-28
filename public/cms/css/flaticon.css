@@ -1,0 +1,39 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:41
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 0;
+}
+.flaticon-alarm-clock-1:before { content: "\f108"; }
+.flaticon-calendar-5:before { content: "\f12a"; }
+.flaticon-fingerprint:before { content: "\f169"; }
+.flaticon-placeholder:before { content: "\f1f0"; }
+.flaticon-placeholder-3:before { content: "\f1f3"; }
+.flaticon-settings:before { content: "\f20f"; }
+.flaticon-user-6:before { content: "\f261"; }
+.flaticon-users:before { content: "\f263"; }
+.flaticon-worldwide:before { content: "\f278"; }

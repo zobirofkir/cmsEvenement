@@ -1,0 +1,57 @@
+img {
+    width: 50%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .imgcontant {
+
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .imgacc {
+    width: 162px;
+    position: absolute;
+    right: 4px;
+    top: 29px;
+  }
+
+
+
+  .imgone {
+    margin-top: 10%;
+  }
+
+  .imgonet {
+    margin-top: 10%;
+  }
+
+  @media (max-width: 767px) {
+    .imgcontant {
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .imgacc {
+      width: 92px;
+      position: absolute;
+      right: 12px;
+      top: 4px;
+    }
+
+
+    .imgonet {
+      margin-top: 0%;
+    }
+
+  }
